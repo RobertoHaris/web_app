@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Articles</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.min.css">  
+    <link rel="icon" type="image/png" href="image/icons/favicon.ico"/>
+</head>
+<body>
+<header class="tête">   
+		<nav class="navbar navbar-expand-lg navbar-dark primary-color">
+  			<!-- Navbar brand -->
+  			<a class="navbar-brand" href="">H-Tech</a>
+  			<!-- Collapse button -->
+  		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+   			 aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+   				<span class="navbar-toggler-icon"></span>
+  		    </button>
+ 		    <div class="collapse navbar-collapse" id="basicExampleNav">
+   				<ul class="navbar-nav mr-auto">
+      				<li class="nav-item active">
+        				<a class="nav-link" href="accueil.html">Gestions des articles
+          					<span class="sr-only"></span>
+        				</a>
+      				</li>
+      				<li class="nav-item">
+       					<a class="nav-link" href="tiers.html">Gestions des tiers</a>
+     				</li>
+      				<li class="navrob">
+       				    <a class="nav-link" href="index.html"><i class="fa fa-power-off "></i></a>
+      				</li>
+    			</ul>
+   				<!-- fin liens -->   
+  			</div> 
+  		</nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+       	    <div class="col-md-2 titre">
+          		<h5>Approvisionnement</h5>
+          		<hr>
+         	    <ul class="listes">
+           		 	<li><a  href="accueil.html"><i class="fa fa-cart-plus "> Passer une commande</a></i></li>
+           		 	<li><a href="achats.html"><i class="fa fa-list-alt"> Listes des achats</i></a></li>
+          		</ul>
+         	    <h5>Stock</h5>
+          		<hr>
+          		<ul class="listes">
+            		<li><a href="stock.html"><i class="fa fa-list-alt"> Listes des articles</i></a></li>
+            		<li><a href="ventes.html"><i class="fa  fa-money "> Listes des ventes</i></a></li>
+          		</ul>
+           		<h5>Charges</h5>
+           		<hr>
+          		<ul class="listes">
+            		<li><a href="charges.html"><i class="fa  fa-clone "> Insertion des charges</i></a></li>
+            		<li><a  class="active" href="chargelits.html"><i class="fa fa-list-alt"> Listes des charges</i></a></li>
+          		</ul>
+        	</div>
+        	<div class="col-md-2"></div>
+        	<div class="col-md-8">
+          		  <h5 class="titre2">Listes des ventes</h5><hr>
+          <div class="container">           
+            <table class="table table-striped">
+              <thead class="tableau">
+                <tr>
+                  <th>Ref</th>
+                  <th>Libellé</th>
+                  <th>Montant</th>
+                  <th>Date</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody class="tableau">
+                <tr>
+                  <td>Rf-321</td>
+                  <td>JIRAMA</td>
+                  <td>2.670.000Ar</td>
+                  <td>25/09/2020</td>
+                  <td><a href=""><i class="fa fa-refresh "> Upadate</i></a> <a href=""><i class="fa fa-trash "> Delete</i></a></td>
+                </tr>
+                <tr>
+                  <td>Rf-322</td>
+                  <td>Assurance</td>
+                  <td>1.105.000AR</td>
+                  <td>28/09/20</td>
+                  <td><a href=""><i class="fa fa-refresh "> Upadate</i></a> <a href=""><i class="fa fa-trash "> Delete</i></a></td>
+                </tr>
+                <tr>
+                  <td>Rf-323</td>
+                  <td>Déplacements</td>
+                  <td>1.105.000AR</td>
+                  <td>7/10/2020</td>
+                  <td><a href=""><i class="fa fa-refresh "> Upadate</i></a> <a href=""><i class="fa fa-trash "> Delete</i></a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div> 
+    </div>
+</body>
+</html>
